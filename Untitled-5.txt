@@ -1,0 +1,5 @@
+let fahrenheit = parseFloat(prompt("Ingrese una temperatura en Fahrenheit:"));
+function convertirAFahrenheit(temp) {
+    return (temp - 32) * 5 / 9;
+}
+console.log("Temperatura en Celsius:", convertirAFahrenheit(fahrenheit));

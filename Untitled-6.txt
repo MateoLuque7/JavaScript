@@ -1,0 +1,5 @@
+let angulo1 = parseInt(prompt("Ingrese el primer ángulo:"));
+let angulo2 = parseInt(prompt("Ingrese el segundo ángulo:"));
+let angulo3 = parseInt(prompt("Ingrese el tercer ángulo:"));
+let esTrianguloValido = (angulo1 + angulo2 + angulo3 === 180);
+console.log("¿Es un triángulo válido?", esTrianguloValido);

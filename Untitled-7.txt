@@ -1,0 +1,4 @@
+let numero1 = parseFloat(prompt("Ingrese el primer número:"));
+let numero2 = parseFloat(prompt("Ingrese el segundo número:"));
+let mayor = numero1 > numero2 ? numero1 : numero2;
+console.log("El número mayor es:", mayor);

@@ -1,0 +1,5 @@
+let numero = parseInt(prompt("Ingrese un número:"));
+function esDivisiblePor5(n) {
+    return n % 5 === 0;
+}
+console.log("¿Es divisible por 5?", esDivisiblePor5(numero));

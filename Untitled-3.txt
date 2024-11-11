@@ -1,0 +1,6 @@
+let str1 = prompt("Ingrese el primer string:");
+let str2 = prompt("Ingrese el segundo string:");
+let sonIguales = str1 === str2;
+let mismaLongitud = str1.length === str2.length;
+console.log("¿Son iguales?", sonIguales);
+console.log("¿Tienen la misma longitud?", mismaLongitud);
